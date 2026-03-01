@@ -12,7 +12,7 @@ awsauth = AWS4Auth(credentials.access_key, credentials.secret_key, region, servi
 print("Credentials access key:", credentials.access_key)
 print("Credentials secret key:", credentials.secret_key)
 
-host = 'https://search-mygoogle-74xgfxo3qbqg4mmm5zzt3a3uye.ap-northeast-1.es.amazonaws.com' # the OpenSearch Service domain, e.g. https://search-mydomain.us-west-1.es.amazonaws.com
+host = 'https://search-doc-search-gmr3qvj2f6q6n4p3ue3bg6zssq.aos.us-east-1.on.aws/_dashboards' # the OpenSearch Service domain, e.g. https://search-mydomain.us-west-1.es.amazonaws.com
 index = 'mygoogle'
 datatype = '_doc'
 #url = host + '/' + index + '/' + datatype
